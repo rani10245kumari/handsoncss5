@@ -1,0 +1,118 @@
+body {
+    background-image: url("shara desert.jpg");
+    filter: brightness(80%);
+    filter: contrast(80%);
+
+}
+
+.container {
+    padding: 10px, 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+    margin-left: 90px;
+}
+
+.logo2 {
+    margin-right: 50px;
+    height: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.container2 {
+
+    margin-top: 210px;
+    color: white;
+}
+
+.container2 span {
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+
+.container2 p {
+
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+button {
+    font-size: 15px;
+    margin-left: 200px;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 14px;
+    margin-top: -350px;
+    float: right;
+    flex-wrap: wrap;
+    width: 45%;
+    color: white;
+    text-align: center;
+}
+
+.b1 {
+    background-image: url(./pic-1.png);
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-size: cover;
+
+}
+
+.b2 {
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-image: url(./pic-2.png);
+    background-size: cover;
+}
+
+.b3 {
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-image: url(./pic-3.png);
+    background-size: cover;
+}
+
+.b4 {
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    background-image: url(./pic-4.png);
+    background-size: cover;
+}
+
+.c:hover {
+    transition: 3s;
+    transform: translateY(-10px);
+
+}
